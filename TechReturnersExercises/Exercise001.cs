@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace TechReturners.Exercises
 {
     public class Exercise001
     {
-        public static String CapitalizeWord(String word) 
+        public static string CapitalizeWord(string word)
         {
-            // Add your code here!
-            throw new NotImplementedException();
+            if (word.Length == 0)
+            {
+                return "";
+            }
+            
+            return word.Substring(0,1).ToUpper()+word.Substring(1);
         }
 
         public static String GenerateInitials(String firstName, String lastName) 

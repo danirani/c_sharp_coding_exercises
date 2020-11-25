@@ -1,19 +1,22 @@
 using System;
+using TechReturnersExercises;
 
 namespace TechReturners.Exercises
 {
     public class Exercise002
     {
-        public static bool IsFromManchester(/* Person person */) 
+        public static bool IsFromManchester(Person _person)
         {
-            // Add your code here!
-            throw new NotImplementedException();
+
+
+            return false;
         }
 
-        public static bool CanWatchFilm(/*Person person, int ageLimit*/) 
+        public static bool CanWatchFilm(Person _person, int _ageLimit)
         {
-            // Add your code here!
-            throw new NotImplementedException();
+            
+            
+            return false;
         }
     }
 }
