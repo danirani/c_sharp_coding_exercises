@@ -37,10 +37,9 @@ namespace TechReturners.Exercises
             return Math.Round(originalPrice * (1 + vatRate / 100.00),2);
         }
 
-        public static String Reverse(String sentence) 
+        public static string Reverse(string sentence) 
         {
-            // Add your code here!
-            throw new NotImplementedException();
+            return new string(sentence.ToCharArray().Reverse().ToArray());
         }
 
         public static int CountLinuxUsers(List<User> users)
