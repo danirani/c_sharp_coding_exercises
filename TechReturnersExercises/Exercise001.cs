@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 
 namespace TechReturners.Exercises
@@ -42,10 +43,9 @@ namespace TechReturners.Exercises
             throw new NotImplementedException();
         }
 
-        public static int CountLinuxUsers(List<User> users) 
+        public static int CountLinuxUsers(List<User> users)
         {
-            // Add your code here!
-            throw new NotImplementedException();
+            return users.Count(u => u.Type == "Linux");
         }
     }
 }
