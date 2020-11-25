@@ -3,7 +3,10 @@
   &lt;ProjectFile&gt;FE6E84E6-7D6A-4A24-A65E-73D600B6BBBD/f:Exercise001Test.cs&lt;/ProjectFile&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c12cf5cc_002Dca50_002D4936_002Dafe6_002De8f08dfb794d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Exercise001Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::FE6E84E6-7D6A-4A24-A65E-73D600B6BBBD::.NETCoreApp,Version=v3.1::TechReturners.Tests.Exercise001Test&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::FE6E84E6-7D6A-4A24-A65E-73D600B6BBBD::.NETCoreApp,Version=v3.1::TechReturners.Tests.Exercise001Test&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;FE6E84E6-7D6A-4A24-A65E-73D600B6BBBD/f:Exercise002Test.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

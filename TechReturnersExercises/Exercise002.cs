@@ -7,16 +7,12 @@ namespace TechReturners.Exercises
     {
         public static bool IsFromManchester(Person _person)
         {
-
-
-            return false;
+            return _person.city == "Manchester";
         }
 
         public static bool CanWatchFilm(Person _person, int _ageLimit)
         {
-            
-            
-            return false;
+            return _person.age >= _ageLimit;
         }
     }
 }
