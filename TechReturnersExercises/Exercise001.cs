@@ -16,15 +16,23 @@ namespace TechReturners.Exercises
             return word.Substring(0,1).ToUpper()+word.Substring(1);
         }
 
-        public static String GenerateInitials(String firstName, String lastName) 
+        public static string GenerateInitials(string firstName, string lastName)
         {
-            // Add your code here!
-            throw new NotImplementedException();
+
+            if (firstName.Length == 0 || lastName.Length == 0)
+            {
+                return "";
+            } 
+            
+            string firstInitial = firstName[0]+".";
+            char secondInitial = lastName[0];
+            
+            
+            return firstInitial + secondInitial;
         }
 
         public static double AddVat(double originalPrice, double vatRate) 
         {
-            // Add your code here!
             throw new NotImplementedException();
         }
 

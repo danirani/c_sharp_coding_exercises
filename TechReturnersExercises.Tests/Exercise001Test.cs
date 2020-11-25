@@ -29,6 +29,7 @@ namespace TechReturners.Tests
         {
             Assert.Equal("F.B", Exercise001.GenerateInitials("Frederic", "Bonneville"));
             Assert.Equal("J.B", Exercise001.GenerateInitials("James", "Bond"));
+            Assert.Equal("", Exercise001.GenerateInitials("", ""));
         }
 
         [Fact]
