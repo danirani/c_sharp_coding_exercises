@@ -31,9 +31,9 @@ namespace TechReturners.Exercises
             return firstInitial + secondInitial;
         }
 
-        public static double AddVat(double originalPrice, double vatRate) 
+        public static double AddVat(double originalPrice, double vatRate)
         {
-            throw new NotImplementedException();
+            return Math.Round(originalPrice * (1 + vatRate / 100.00),2);
         }
 
         public static String Reverse(String sentence) 
